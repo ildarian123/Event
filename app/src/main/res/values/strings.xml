@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="folder_image">folder_image</string>
+    <string name="some_problem">Some problem</string>
+    <string name="APIRateLimitExceeded">API rate limit exceeded</string>
+</resources>

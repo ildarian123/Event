@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_container_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/event_image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="12dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/folder_image"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/event_image_view"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/name_of_event_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            tools:text="asd sdfdfsfgd sdfsdf sdf sdsd fsdfsdfsdfsdf sdfsdfg sdfg d" />
+
+        <TextView
+            android:id="@+id/type_of_event_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="12dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            tools:text="asd sdfdfsfgd sdfsdf sdf sdsd fsdfsdfsdfsdf sdfsdfg sdfg d" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
